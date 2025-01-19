@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+button,
+input,
+textarea,
+select,
+span,
+small {
+  font-family: "Roboto", sans-serif;
+}
+
+.section-content {
+  padding: 4rem 0;
+}
+
+.shadow-box {
+  transition: 0.5s ease-in;
+}
+.shadow-box:hover {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+#header #navTop .socials a img {
+  border-radius: 0.75rem;
+}
+#header #navPrimary {
+  background-color: #0e2d16;
+}
+#header #navPrimary .offcanvas {
+  width: 300px !important;
+}
+#header #navPrimary .offcanvas .mobile-menu a {
+  font-size: 1.1rem !important;
+}
+#header #navPrimary .offcanvas .mobile-menu a.active {
+  font-weight: bold !important;
+  color: #0e2d16;
+}
+#header #navPrimary .offcanvas .mobile-menu li {
+  padding-left: 0.75rem;
+  line-height: 1.75;
+}
+
+#frontCarousel {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 1rem;
+}
+#frontCarousel .carousel-inner {
+  border-radius: 1rem;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+#frontCarousel .carousel-inner .carousel-item {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+#frontCarousel .carousel-inner .carousel-item .carousel-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+#frontPrograms {
+  background-color: #e4e0de;
+}
+#frontPrograms .program-item {
+  border-radius: 1rem;
+}
+#frontPrograms a {
+  color: #0e2d16;
+}
+#frontPrograms a img {
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 130px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+#frontPrograms a p {
+  font-size: 1.1rem;
+}
+
+#frontInfos .card,
+#frontInfos img {
+  border-radius: 1rem;
+}
+#frontInfos .socials {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#frontInfos .socials .card {
+  border: none;
+  border-radius: 3rem;
+}
+#frontInfos .socials img {
+  border-radius: 3rem;
+}
+#frontInfos .infos {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#frontInfos .infos .card.card-body {
+  background-color: #d9d1c3;
+  min-height: 20rem;
+}
+#frontInfos .infos .card.card-body p {
+  font-size: 1.1rem;
+}
+
+#frontLatest {
+  background-color: #e4e0de;
+}
+#frontLatest .latest-posts-header,
+#frontLatest .latest-reviews-header {
+  padding-left: 0.5rem;
+  border-left: 0.5rem solid #93c;
+}
+#frontLatest .latest-posts-header h4,
+#frontLatest .latest-reviews-header h4 {
+  color: #93c;
+}
+#frontLatest .latest-posts .latest-post,
+#frontLatest .latest-posts .latest-reviews,
+#frontLatest .latest-reviews .latest-post,
+#frontLatest .latest-reviews .latest-reviews {
+  margin-bottom: 1rem;
+  border: 0;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+#frontLatest .latest-posts .latest-post-featured,
+#frontLatest .latest-posts .latest-reviews-featured,
+#frontLatest .latest-reviews .latest-post-featured,
+#frontLatest .latest-reviews .latest-reviews-featured {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 13rem;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+#frontLatest .latest-posts .latest-post-text a,
+#frontLatest .latest-posts .latest-reviews-text a,
+#frontLatest .latest-reviews .latest-post-text a,
+#frontLatest .latest-reviews .latest-reviews-text a {
+  text-decoration: none;
+  color: #0d47a1;
+}
+#frontLatest .latest-posts .latest-post-text a:hover,
+#frontLatest .latest-posts .latest-reviews-text a:hover,
+#frontLatest .latest-reviews .latest-post-text a:hover,
+#frontLatest .latest-reviews .latest-reviews-text a:hover {
+  color: #2674ee;
+}
+#frontLatest .latest-posts .latest-post p,
+#frontLatest .latest-posts .latest-reviews p,
+#frontLatest .latest-reviews .latest-post p,
+#frontLatest .latest-reviews .latest-reviews p {
+  font-size: 1.1rem;
+  font-weight: lighter;
+}/*# sourceMappingURL=app.css.map */

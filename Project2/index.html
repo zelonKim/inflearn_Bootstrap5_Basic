@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/assets/css/app.css" />
+    <title>My Second Web</title>
+  </head>
+
+  <body>
+    <header id="header" class="wrapper">
+      <section id="navTop" class="nav-top py-2 d-none d-sm-block">
+        <div class="container">
+          <div class="row align-items-center jsutify-content-center">
+            <div class="col-3 text-start lead fast-counsel">
+              <a href="#" class="btn btn-outline-dark">Contact</a>
+            </div>
+            <div class="col-4 logo">
+              <a href="index.html" class="navbar-brand d-flex">
+                <img
+                  src="/assets/images/dummy-logo.png"
+                  alt=""
+                  class="img-fluid ms-auto"
+                  width="200px"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="My amazing website"
+                />
+              </a>
+            </div>
+            <div class="col-5 text-end socials">
+              <a href="tel:010-4674-1860" class="mx-1 text-decoration-none">
+                <img
+                  src="/assets/images/icon-phone.png"
+                  alt="Phone"
+                  width="40px"
+                  class="shadow-box"
+                />
+              </a>
+              <a href="#" target="_blank" class="mx-1 text-decoration-none">
+                <img
+                  src="/assets/images/icon-kakao-channel.png"
+                  alt="KakaoChannel"
+                  width="40px"
+                  class="shadow-box"
+                />
+              </a>
+              <a href="#" target="_blank" class="mx-1 text-decoration-none">
+                <img
+                  src="/assets/images/icon-facebook.png"
+                  alt="Facebook"
+                  width="40px"
+                  class="shadow-box"
+                />
+              </a>
+              <a href="#" target="_blank" class="mx-1 text-decoration-none">
+                <img
+                  src="/assets/images/icon-twitter.png"
+                  alt="Twitter"
+                  width="40px"
+                  class="shadow-box"
+                />
+              </a>
+              <a href="#" target="_blank" class="mx-1 text-decoration-none">
+                <img
+                  src="/assets/images/icon-youtube.png"
+                  alt="Youtube"
+                  width="40px"
+                  class="shadow-box"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <nav id="navPrimary" class="navbar navbar-expand-md navbar-dark">
+        <div class="container-xxl">
+          <a class="navbar-brand d-block d-md-none" href="#">
+            <img
+              src="/assets/images/dummy-logo.png"
+              alt="Logo"
+              class="img-fluid"
+            />
+          </a>
+
+          <div class="collapse navbar-collapse" id="navPrimaryContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Intro
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="page.html">About us</a>
+                  </li>
+                  <li><a class="dropdown-item" href="page.html">Find us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page.html">Documents</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page.html">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page.html">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-secondary" href="#"
+                  ><i class="fa fa-search"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="btn btn-outline-secondary d-block d-md-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end d-block d-md-none"
+            data-bs-scroll="true"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvasRightLabel">My second Web</h5>
+
+              <button
+                class="btn-close text-reset"
+                type="button"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul class="list-unstyled mobile-menu">
+                <li>
+                  <a
+                    href="index.html"
+                    class="text-decoration-none link-dark active"
+                    >Home</a
+                  >
+                  <a href="page.html" class="text-decoration-none link-dark"
+                    >Intro</a
+                  >
+                  <ul class="list-unstyled ms-3">
+                    <li>
+                      <a href="page.html" class="text-decoration-none link-dark"
+                        >About us</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page.html" class="text-decoration-none link-dark"
+                        >Find us</a
+                      >
+                    </li>
+                    </ul>
+                    </li>
+
+                    <li>
+                      <a href="page.html" class="text-decoration-none link-dark"
+                        >Documents</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page.html" class="text-decoration-none link-dark"
+                        >Gallery</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page.html" class="text-decoration-none link-dark"
+                        >Blog</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page.html" class="text-decoration-none link-dark"
+                        >Events</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page.html" class="text-decoration-none link-dark"
+                        >Reviews</a
+                      >
+                    </li>
+                    <li>
+                      <a href="page.html" class="text-decoration-none link-dark"
+                        >Reservation</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="btn btn-outline-secondary w-100"
+                        ><i class="fa fa-search"></i></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <section id="frontCarousel" class="container-xxl carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#frontCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#frontCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#frontCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('/assets/images/bg1.jpg');">
+                    <div class="carousel-overlay text-white d-flex justify-content-center align-items-center">
+                        <div class="carousel-text text-center px-md-5">
+                            <h1 class="carousel-title display-4">Slide 1</h1>
+                            <h3 class="carousel-subtitle">Slide1 Description. Lorem ipsum dolor sit.</h3>
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="carousel-item" style="background-image: url('/assets/images/bg2.jpg');">
+                <div class="carousel-overlay text-white d-flex justify-content-center align-items-center">
+                    <div class="carousel-text text-center px-md-5">
+                        <h1 class="carousel-title display-4">Slide 2</h1>
+                        <h3 class="carousel-subtitle">Slide1 Description. Lorem ipsum dolor sit.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('/assets/images/bg3.jpg');">
+                <div class="carousel-overlay text-white d-flex justify-content-center align-items-center">
+                    <div class="carousel-text text-center px-md-5">
+                        <h1 class="carousel-title display-4">Slide 3</h1>
+                        <h3 class="carousel-subtitle">Slide1 Description. Lorem ipsum dolor sit.</h3>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#frontCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#frontCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+    </section>
+
+    <section id="frontPrograms">
+        <div class="section-content">
+            <div class="container-xxl">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 text-center">
+                        <h3 class="mb-3">Our Programs</h3>
+                        <p class="lead">Wow Below are our amazing special programs</p>
+                        <br>
+                        <div class="row jsutify-content-center px2">
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <div class="program-item bg-white border p-2 shadow-box">
+                                    <a href="page.html" class="text-decoration-none">
+                                        <img src="/assets/images/project-1.jpg" alt="Project1" class="img-fluid">
+                                    </a>
+                                    <p class="mb-0">Program 1</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <div class="program-item bg-white border p-2 shadow-box">
+                                    <a href="page.html" class="text-decoration-none">
+                                        <img src="/assets/images/project-2.jpg" alt="Project1" class="img-fluid">
+                                    </a>
+                                    <p class="mb-0">Program 2</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <div class="program-item bg-white border p-2 shadow-box">
+                                    <a href="page.html" class="text-decoration-none">
+                                        <img src="/assets/images/project-3.jpg" alt="Project1" class="img-fluid">
+                                    </a>
+                                    <p class="mb-0">Program 3</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <div class="program-item bg-white border p-2 shadow-box">
+                                    <a href="page.html" class="text-decoration-none">
+                                        <img src="/assets/images/project-4.jpg" alt="Project1" class="img-fluid">
+                                    </a>
+                                    <p class="mb-0">Program 4</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="frontInfos">
+        <div class="section-content">
+            <div class="container-xxl">
+                <h3 class="text-center mb-4">Our Infos and How to Contact us</h3>
+                <div class="row w-75 mx-auto socials">
+                    <div class="col-6 col-lg-3 mb-4">
+                        <div class="card shadow-box">
+                            <a href="tel:02-111-1111">
+                                <img src="/assets/images/icon-phone.png" alt="Phone" class="card-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mb-4">
+                         <div class="card shadow-box">
+                            <a target="_blank" href="#">
+                                <img src="/assets/images/icon-kakao-channel.png" alt="Kakao Channel" class="card-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mb-4">
+                         <div class="card shadow-box">
+                            <a target="_blank" href="#">
+                                <img src="/assets/images/icon-youtube.png" alt="Youtube" class="card-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mb-4">
+                         <div class="card shadow-box">
+                            <a target="_blank" href="#">
+                                <img src="/assets/images/icon-facebook.png" alt="Facebook" class="card-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center infos">
+                    <div class="col-md-4 mb-3">
+                        <div class="card card-body shadow-sm p-4 text-center box-bg">
+                            <i class="fas fa-map-market-alt fa-4x">
+                                <h4 class="mb-0">How to find</h4>
+                                <hr class="hr-black">
+                                <div class="fw-light">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quam quos labore, recusandae voluptas enim cum temporibus ipsum ut dolorem praesentium deleniti quidem est numquam magnam nihil error dolorum animi!</p>
+                                </div>
+                            </i>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card card-body shadow-sm p-4 text-center box-bg">
+                            <i class="fas fa-clock fa-4x">
+                                <h4 class="mb-0">Business hour</h4>
+                                <hr class="hr-black">
+                                <div class="fw-light">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quam quos labore, recusandae voluptas enim cum temporibus ipsum ut dolorem praesentium deleniti quidem est numquam magnam nihil error dolorum animi!</p>
+                                </div>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="frontLatest">
+        <div class="section-content">
+            <div class="container-xxl">
+                <h3 class="text-center mb-4">New Articles</h3>
+                <p class="lead text-center mb-5">Meet our New Articles</p>
+
+                <div class="row">
+                    <div class="col-md-6 mb-5 latest-posts">
+                        <div class="latest-posts-header mb-4">
+                            <h4>Latest Posts</h4>
+                        </div>
+                        <div class="card latest-post">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4 latest-post-featured" style="background-image: url('/assets/images/port1.jpg')"></div>
+                                <div class="col-md-8 latest-post-text">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">
+                                            <a href="post.html">Test Post</a>
+                                        </h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus distinctio repellendus quaerat exercitationem. Consectetur harum dolore perferendis, magnam debitis, quisquam minima saepe iste explicabo, modi porro odit. Possimus, omnis.</p>
+                                        <p class="card-text"><small class="text-muted">2021-8-10</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a href="blog.html" class="btn btn-outline-primary">View more posts</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5 latest-reviews">
+                        <div class="latest-reviews-header mb-4">
+                            <h4>Latest reviews</h4>
+                        </div>
+                        <div class="card latest-reviews">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4 latest-post-featured" style="background-image: url('/assets/images/port2.jpg')"></div>
+                                <div class="col-md-8 latest-reviews-text">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">
+                                            <a href="review.html">Test reviews</a>
+                                        </h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus distinctio repellendus quaerat exercitationem. Consectetur harum dolore perferendis, magnam debitis, quisquam minima saepe iste explicabo, modi porro odit. Possimus, omnis.</p>
+                                        <p class="card-text"><small class="text-muted">2021-8-20</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a href="blog.html" class="btn btn-outline-primary">View more posts</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5 latest-reviews">
+                        <div class="latest-reviews-header mb-4">
+                            <h4>Latest reviews</h4>
+                        </div>
+                        <div class="card latest-reviews">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4 latest-post-featured" style="background-image: url('/assets/images/port3.jpg')"></div>
+                                <div class="col-md-8 latest-reviews-text">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">
+                                            <a href="review.html">Test reviews</a>
+                                        </h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus distinctio repellendus quaerat exercitationem. Consectetur harum dolore perferendis, magnam debitis, quisquam minima saepe iste explicabo, modi porro odit. Possimus, omnis.</p>
+                                        <p class="card-text"><small class="text-muted">2021-8-20</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a href="blog.html" class="btn btn-outline-primary">View more posts</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5 latest-reviews">
+                        <div class="latest-reviews-header mb-4">
+                            <h4>Latest reviews</h4>
+                        </div>
+                        <div class="card latest-reviews">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4 latest-post-featured" style="background-image: url('/assets/images/port4.jpg')"></div>
+                                <div class="col-md-8 latest-reviews-text">
+                                    <div class="card-body">
+                                        <h4 class="card-title fw-bold">
+                                            <a href="review.html">Test reviews</a>
+                                        </h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus distinctio repellendus quaerat exercitationem. Consectetur harum dolore perferendis, magnam debitis, quisquam minima saepe iste explicabo, modi porro odit. Possimus, omnis.</p>
+                                        <p class="card-text"><small class="text-muted">2021-8-20</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a href="blog.html" class="btn btn-outline-primary">View more posts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- kakao map appkey -->
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
