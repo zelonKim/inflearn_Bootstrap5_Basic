@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <title>My first Web</title>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light py-3 shadow-lg sticky-top"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand align-middle">
+          <h3 class="m-0">
+            <img
+              src="assets/images/bootstrap-logo.png"
+              alt="Logo"
+              height="36px"
+            />
+            My BS5 web
+          </h3>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="#top" class="nav-link"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a href="#intro" class="nav-link"> Intro </a>
+            </li>
+            <li class="nav-item">
+              <a href="services" class="nav-link"> Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#slogan" class="nav-link"> Slogan </a>
+            </li>
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link"> Gallery </a>
+            </li>
+            <li class="nav-item">
+              <a href="#cta" class="nav-link"> Contact </a>
+            </li>
+            <li class="nav-item">
+              <a href="#find-us" class="nav-link"> Find us </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="top">
+      <div
+        class="section-content overlay d-flex justify-content-center align-items-center"
+      >
+        <div class="container-xxl">
+          <div class="row align-items-center">
+            <div class="col-md-9 welcome">
+              <h1 class="welcome-title fw-light">
+                Welcome to
+                <span class="text-warning fw-bold"> my first website.</span>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+                facere.
+              </h1>
+
+              <div class="divider"></div>
+              <div class="row welcome-desc">
+                <p class="col-sm-10 col-md-12 lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Exercitationem, quasi nemo aspernatur velit rerum quaerat
+                  tempore reprehenderit soluta sapiente in.
+                </p>
+                <p class="col-sm-2 col-md-12">
+                  <a href="#" class="btn btn-primary">Read more</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3 d-none d-md-block letsgo">
+              <div class="card card-body letsgo-card">
+                <div class="letsgo my-3">
+                  <h4 class="letsgo-title card-title text-dark mb-3">
+                    Easy contact!
+                  </h4>
+                  <p class="card-text text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque, recusandae.
+                  </p>
+                </div>
+
+                <div class="letsgo-card-form">
+                  <form>
+                    <div class="mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="your name"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <input
+                        type="tel"
+                        class="form-control"
+                        placeholder="your phone"
+                      />
+                    </div>
+                    <div class="form-check mb-3">
+                      <input
+                        type="text"
+                        class="form-check-input"
+                        id="flexCheckDefault"
+                      />
+                      <label
+                        for="flexCheckDefault"
+                        class="form-check-label text-secondary"
+                      >
+                        I agree to provide priavcy
+                      </label>
+                    </div>
+                    <p class="mb-3">
+                      <button class="btn btn-primary w-100" type="button">
+                        Submit
+                      </button>
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro">
+      <div class="section-content">
+        <div class="container intro">
+          <div class="row align-items-center">
+            <div class="col-md-6 intro-first">
+              <div class="row px-lg-3">
+                <div class="col-6">
+                  <div
+                    class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card"
+                  >
+                    <div
+                      class="overlay d-flex jsutify-content-center align-items-center position-absolute h-100 w-100 shadow-lg"
+                    >
+                      <h3 class="fw-light">
+                        <a href="#" class="link-light text-decoration-none"
+                          >Link 1</a
+                        >
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div
+                    class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card"
+                  >
+                    <div
+                      class="overlay d-flex jsutify-content-center align-items-center position-absolute h-100 w-100 shadow-lg"
+                    >
+                      <h3 class="fw-light">
+                        <a href="#" class="link-light text-decoration-none"
+                          >Link 2</a
+                        >
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div
+                    class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card"
+                  >
+                    <div
+                      class="overlay d-flex jsutify-content-center align-items-center position-absolute h-100 w-100 shadow-lg"
+                    >
+                      <h3 class="fw-light">
+                        <a href="#" class="link-light text-decoration-none"
+                          >Link 3</a
+                        >
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6">
+                  <div
+                    class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card"
+                  >
+                    <div
+                      class="overlay d-flex jsutify-content-center align-items-center position-absolute h-100 w-100 shadow-lg"
+                    >
+                      <h3 class="fw-light">
+                        <a href="#" class="link-light text-decoration-none"
+                          >Link 4</a
+                        >
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 intro-second">
+              <h5 class="fw-light">Greeting</h5>
+              <h1 class="mb-4">Introduce our website</h1>
+              <div class="intro-text">
+                <p class="lead">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptate nemo ab quam iste quaerat cumque, voluptatem
+                  incidunt maxime assumenda repellat amet reiciendis
+                  exercitationem soluta voluptatibus qui non porro corporis
+                  optio.
+                </p>
+                <p class="lead">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+                  illo sequi, distinctio nisi atque quaerat aut architecto quod
+                  eius inventore!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="section-content">
+        <div class="container services">
+          <div class="services-header text-center mb-5">
+            <h1 class="display-5">Our amazing services</h1>
+            <div class="divider">
+              <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe aliquid cum quae excepturi fuga quis maxime unde ea magni culpa!</p>
+            </div>
+            </div>
+          </div>
+          <div id="slick-slide" class="services-body">
+            <div class="services-col mx-2 my-3">
+                <div class="card">
+                    <a href="#">
+                      <img src="./assets/images/port1.jpg" alt="" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                      <h4 class="card-title">Slide title</h4>
+                      <p class="card-text fw-light mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquam iure laborum modi, nesciunt ipsa nulla velit laudantium fugit a in minus sit quos aliquid. Itaque at autem pariatur labore.
+                      </p>
+                      <a href="#" class="btn btn-primary">view more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-col mx-2 my-3">
+              <div class="card">
+                  <a href="#">
+                    <img src="./assets/images/port2.jpg" alt="" class="card-img-top">
+                  </a>
+                  <div class="card-body">
+                    <h4 class="card-title">Slide title</h4>
+                    <p class="card-text fw-light mb-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquam iure laborum modi, nesciunt ipsa nulla velit laudantium fugit a in minus sit quos aliquid. Itaque at autem pariatur labore.
+                    </p>
+                    <a href="#" class="btn btn-primary">view more</a>
+                  </div>
+              </div>
+          </div>
+          <div class="services-col mx-2 my-3">
+            <div class="card">
+                <a href="#">
+                  <img src="./assets/images/port3.jpg" alt="" class="card-img-top">
+                </a>
+                <div class="card-body">
+                  <h4 class="card-title">Slide title</h4>
+                  <p class="card-text fw-light mb-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquam iure laborum modi, nesciunt ipsa nulla velit laudantium fugit a in minus sit quos aliquid. Itaque at autem pariatur labore.
+                  </p>
+                  <a href="#" class="btn btn-primary">view more</a>
+                </div>
+            </div>
+        </div>
+        <div class="services-col mx-2 my-3">
+          <div class="card">
+              <a href="#">
+                <img src="./assets/images/port4.jpg" alt="" class="card-img-top">
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">Slide title</h4>
+                <p class="card-text fw-light mb-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquam iure laborum modi, nesciunt ipsa nulla velit laudantium fugit a in minus sit quos aliquid. Itaque at autem pariatur labore.
+                </p>
+                <a href="#" class="btn btn-primary">view more</a>
+              </div>
+          </div>
+      </div>
+      <div class="services-col mx-2 my-3">
+        <div class="card">
+            <a href="#">
+              <img src="./assets/images/port5.jpg" alt="" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">Slide title</h4>
+              <p class="card-text fw-light mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquam iure laborum modi, nesciunt ipsa nulla velit laudantium fugit a in minus sit quos aliquid. Itaque at autem pariatur labore.
+              </p>
+              <a href="#" class="btn btn-primary">view more</a>
+            </div>
+        </div>
+    </div>
+    <div class="services-col mx-2 my-3">
+      <div class="card">
+          <a href="#">
+            <img src="./assets/images/port6.jpg" alt="" class="card-img-top">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">Slide title</h4>
+            <p class="card-text fw-light mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquam iure laborum modi, nesciunt ipsa nulla velit laudantium fugit a in minus sit quos aliquid. Itaque at autem pariatur labore.
+            </p>
+            <a href="#" class="btn btn-primary">view more</a>
+          </div>
+      </div>
+  </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="slogan">
+      <div class="section-content d-flex align-items-center h-100">
+        <div class="container slogan">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card card-body slogan-card">
+                <h1 class="mb-3"> Our Slogan</h1>
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi distinctio mollitia amet numquam ipsam placeat tempora asperiores voluptate cupiditate quia, repellat ad suscipit ipsa. Pariatur modi harum praesentium voluptatibus quo.</p>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, mollitia!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="section-content">
+        <div class="container features">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="card card-body shadow border-0 features-card">
+                <h4 class="card-title mb-3">
+                  <span class="fw-bold">1</span>
+                  Feature 1
+                </h4>
+                <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti provident adipisci accusantium repudiandae eos blanditiis, tempore maxime veritatis eligendi quos pariatur voluptates omnis dolore excepturi atque illum molestias suscipit.</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card card-body shadow border-0 features-card">
+                <h4 class="card-title mb-3">
+                  <span class="fw-bold">2</span>
+                  Feature 2
+                </h4>
+                <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti provident adipisci accusantium repudiandae eos blanditiis, tempore maxime veritatis eligendi quos pariatur voluptates omnis dolore excepturi atque illum molestias suscipit.</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card card-body shadow border-0 features-card">
+                <h4 class="card-title mb-3">
+                  <span class="fw-bold">3</span>
+                  Feature3
+                </h4>
+                <p class="card-text fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti provident adipisci accusantium repudiandae eos blanditiis, tempore maxime veritatis eligendi quos pariatur voluptates omnis dolore excepturi atque illum molestias suscipit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="section-content">
+       <div class="container gallery">
+        <div class="gallery-header text-center mb-5">
+          <h1 class="display-4">Our gallery</h1>
+          <div class="divider"></div>
+          <p class="lead text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus odio nemo nostrum tempore, consequatur sed aut quidem porro esse suscipit quos molestias ratione temporibus, voluptatibus repellendus libero sit tempora debitis.</p>
+        </div>
+        <div class="row gallery-body">
+          <div class="col-md-4 col-sm-6 mb-4 gallery-item">
+            <div class="card card-body border-0 p-0">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                <h2 class="gallery-title">Gallery 1</h2>
+                <a href="#">View this gallery</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4 gallery-item">
+            <div class="card card-body border-0 p-0">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                <h2 class="gallery-title">Gallery 2</h2>
+                <a href="#">View this gallery</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4 gallery-item">
+            <div class="card card-body border-0 p-0">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                <h2 class="gallery-title">Gallery 3</h2>
+                <a href="#">View this gallery</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4 gallery-item">
+            <div class="card card-body border-0 p-0">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                <h2 class="gallery-title">Gallery 4</h2>
+                <a href="#">View this gallery</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4 gallery-item">
+            <div class="card card-body border-0 p-0">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                <h2 class="gallery-title">Gallery 5</h2>
+                <a href="#">View this gallery</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4 gallery-item">
+            <div class="card card-body border-0 p-0">
+              <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                <h2 class="gallery-title">Gallery 6</h2>
+                <a href="#">View this gallery</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="cta" class="position-relative">
+      <div class="section-content position-absolute h-100 w-100 overlay d-flex flex-column justify-content-center align-items-center">
+        <div class="container text-center cta">
+          <h3 class="display-6 text-primary">
+Contact us anytime!
+          </h3>
+          <h2 class="display-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+          <p class="lead text-light mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, praesentium.</p>
+          <h1 class="m-0">
+            <a href="tel:010-4674-1860" class="link-warning text-decoration-none">010-4674-1860</a>
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section id="find-us">
+      <div class="container-fluid px-0 mb-3">
+        <div id="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404773.7904220485!2d126.6963506328125!3d37.571664999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2eca77ffbd5%3A0x47500cabc5abd077!2z6rSR7ZmU66y4!5e0!3m2!1sko!2skr!4v1737267962655!5m2!1sko!2skr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 offset-md-8 col-10 find-us">
+            <h3>Contact us!</h3>
+            <div class="divider"></div>
+            <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, obcaecati! Quod reprehenderit sint aliquam ut labore quo nostrum at quasi, nisi natus corrupti ab quae, suscipit illum! Alias, ad dignissimos.</p>
+            <div class="d-flex text-secondary">
+              <p class="fw-bold me-5">
+                <span class="text-uppercase">phone</span>:
+                <a href="tel:010-4674-1860" class="text-decoration-none">010-4674-1860</a>
+              </p>
+              <p class="fw-bold me-5">
+                <span class="text-uppercase">email</span>:
+                <a href="mailto:ksz18601@gmail.com" class="text-decoration-none">ksz18601@gmail.com</a>
+              </p>
+            </div>
+            <form action="">
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="your email">
+              </div>
+              <div class="mb-3">
+                <textarea rows="3" class="form-control" placeholder="please write down any questions."></textarea>
+              </div>
+              <div class="mb-3">
+                <input type="checkbox" id="checkDefault" class="form-check-input">
+                <label for="checkDefault" class="form-check-label text-secondary">I agree to provide privacy.</label>
+              </div>
+              <p class="mb-3">
+                <button class="btn btn-primary w-100">Send</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="section-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 mb-4 footer-1">
+              <img src="./assets/images/bootstrap-big-logo.png" alt="" class="img-fluid footer-logo">
+            </div>
+
+            <div class="col-md-3 mb-4 footer-2 sns">
+              <a href="#" class="mx-1 text-decoration-none social">
+                <img src="./assets/images/icon-facebook.png" alt="Facebook" width="38px">
+              </a>
+              <a href="#" class="mx-1 text-decoration-none social">
+                <img src="./assets/images/icon-instagram.png" alt="instagram" width="38px">
+              </a>
+              <a href="#" class="mx-1 text-decoration-none social">
+                <img src="./assets/images/icon-twitter.png" alt="twitter" width="38px">
+              </a>
+              <a href="#" class="mx-1 text-decoration-none social">
+                <img src="./assets/images/icon-youtube.png" alt="youtube" width="38px">
+              </a>
+              <a href="#" class="mx-1 text-decoration-none social">
+                <img src="./assets/images/icon-naver-block.png" alt="Naver blog" width="38px">
+              </a>
+              <a href="#" class="mx-1 text-decoration-none social">
+                <img src="./assets/images/icon-kakao-channel.png" alt="Kakao Channel" width="38px">
+              </a>
+            </div>
+
+            <div class="col-md-3 mb-4 footer-2">
+              <h4 class="mb-4">Footer 2</h4>
+              <ul>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 mb-4 footer-3">
+              <h4 class="mb-4">Footer 3</h4>
+              <ul>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 mb-4 footer-4">
+              <h4 class="mb-4">Our Infos</h4>
+              <div class="info-body">
+                <p class="mb-2">
+                  <i class="fas fa-user"></i> CEO: zelon kim
+                </p>
+                <p class="mb-2">
+                  <i class="fas fa-map-marked-alt"></i> Address: 11-123 Jung-gu Gil-dong Seoul Korea
+                </p>
+                <p class="mb-2">
+                  <i class="fas fa-phone-square-alt"></i> Call: 010-4674-1860
+                </p>
+                <p class="mb-2">
+                  <i class="fas fa-hospital"></i> Registered Business Number:111-12-1234
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
